@@ -1,0 +1,9 @@
+1. create environment variable file in root folder .env  (do not deploy)
+2. import env varible through vite process
+3. create appwrite
+4. create config folder in stor then config.js 
+
+5.create folder "appwrite " in src then create auth.js
+6.create class "authservice" in auth.js
+7.create the object of class in export it
+8.create client and account in class

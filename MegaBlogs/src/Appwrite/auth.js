@@ -1,4 +1,4 @@
-import conf from "../Config/config";
+import conf from "../Config/conf";
 import { Client, Account, ID } from "appwrite";
 
 export class AuthService {
@@ -23,7 +23,7 @@ export class AuthService {
 
       if (UserAccount) {
         // If account creation is successful, log the user in
-        return this.login({ email, password });
+        return this.login({ email, password });   // call login service
       } else {
         return UserAccount;
       }
